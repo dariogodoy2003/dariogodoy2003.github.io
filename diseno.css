@@ -1,0 +1,68 @@
+* {
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: 'Inter', sans-serif;  
+}
+
+h1 {
+    background-color: honeydew;
+    border: solid red;
+    text-transform: uppercase;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    text-transform: capitalize;    
+}
+
+section,ul{
+    line-height: 2;
+    font-weight: bold;
+    border-radius: 20px;   
+    background-image: linear-gradient(rgb(133, 179, 59), rgb(128, 128, 63)); 
+}
+
+#encabezado {
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+#foto {
+    border: solid rgb(225, 146, 146) 2px;
+    border-radius: 50%;
+    position: static;
+    max-width: 100%;
+    height: auto;
+}
+
+#personales, #titulos, #experiencia, #habilidades  {
+    border: 2px solid green;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(133, 179, 59), rgb(128, 128, 63));  
+}
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#barra {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+li.b {
+    display: inline;
+  }

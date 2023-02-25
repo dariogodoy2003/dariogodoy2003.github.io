@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseno.css">
+    <title>Proyecto_CV</title>
+    <script src="https://kit.fontawesome.com/ccb0591783.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Merienda&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul id = "barra"> <!-- Barra de navegación -->
+        <li class="b"><a href="#personales">Datos Personales</a></li>
+        <li class="b"><a href="#titulos">Títulos obtenidos</a></li>
+        <li class="b"><a href="#experiencia">Experiencia laboral</a></li>
+        <li class="b"><a href="#habilidades">Habilidades</a></li>
+      </ul>
+    <section id = encabezado>
+        <img id = foto alt="foto_CV">
+        <h1 id = CV>CV Nombre</h1> <!-- Definición del h1 del documento -->
+    </section>
+
+    <section id = personales>
+        <h2>
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-solid fa-user" aria-label="icono"></i>
+            </span>
+            Datos Personales
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-solid fa-user"></i>
+            </span>
+        </h2>
+        
+        <ul class="a"> <!-- Agrego 'class' para poder manejar los dos tupos de listas -->
+            <li id = nombre>Nombre y apellido:</li> 
+            <li id = dni>DNI N°:</li> 
+            <li id = mail>Correo electronico:</li> 
+            <li id = tel>Teléfono:</li> 
+            <li id = lnk>Linkedin:</li> 
+            <li id = nac>Fecha de Nacimiento:</li> 
+            <li id = edad>Edad:</li> 
+        </ul>
+    </section>
+
+    <section id = titulos>
+        <h2>
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-solid fa-user-graduate" aria-label="icono"></i>
+            </span>
+            Títulos obtenidos
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-solid fa-user-graduate" aria-label="icono"></i>
+            </span>
+        </h2>
+        <ul class="a">
+            <li>Año de egreso: 2010</li>
+            <li>Institución: Universidad Nacional de La Plata.</li>
+            <li>Título obtenido: Licenciado en Informática.</li>
+        </ul>
+
+    </section>
+
+    <section id = experiencia>
+        <h2>
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-sharp fa-solid fa-laptop-file" aria-label="icono"></i>
+            </span>
+            Experiencia laboral
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-sharp fa-solid fa-laptop-file" aria-label="icono"></i>
+            </span>
+        </h2>
+        <ul class="a">
+            <li>Año de ingreso: 2009 - Año de egreso: Continúo</li>
+            <li>Empresa: InfoArq SRL</li>
+            <li>Cargo: Responsable de mantenimiento del sistema de archivos.</li>
+            <li>Tareas desempeñadas: Diseño y gestión del sistema de archivos de la empresa. 
+                Mantenimiento y actualización del sistema informático.
+                Capacitación del recurso humano del departamento de sistemas.</li>
+        </ul>
+
+    </section>
+
+    <section id = habilidades>
+        <h2>
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-solid fa-user-shield" aria-label="icono"></i>
+            </span>
+            Habilidades
+            <span style="font-size: 20px; color: Dodgerblue;">
+                <i class="fa-solid fa-user-shield" aria-label="icono"></i>
+            </span>
+        </h2>
+        <ul class = 'a'>
+            <li>Capacidad de innovar y de desarrollar ideas</li>
+            <li>Pensamiento crítico y capacidad analítica</li>
+            <li>Buen desempeño en el trabajo en equipo y en trabajo colaborativo</li>
+            <li>Orientado a logro y gestión de objetivos</li>
+
+        </ul>
+    </section>
+
+    <script src="funcionalidad.js"></script>
+</body>
+</html>
